@@ -6,7 +6,7 @@
   flex-direction: column;
   padding-top: 20px;
   margin-left: 25%;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .planet__loader {
