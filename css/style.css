@@ -1429,3 +1429,12 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+
+
+/* ////////   NEW STYLES   //////// */
+
+.slider-text-inner .desc {
+  padding: 30px;
+  background: rgba(255, 255, 255, .7);
+}
