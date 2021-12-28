@@ -1438,3 +1438,17 @@ body.offcanvas {
   padding: 30px;
   background: rgba(255, 255, 255, .7);
 }
+@media (max-width: 480px) {
+  #colorlib-aside .position {
+    margin-bottom: 1em;
+  }
+  .navbar {
+    margin-bottom: 1em;
+  }
+  #colorlib-aside #colorlib-main-menu ul {
+    margin: 0;
+  }
+  #colorlib-aside #colorlib-main-menu ul li:last-of-type {
+    margin: 0;
+  }
+}
