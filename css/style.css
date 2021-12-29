@@ -822,7 +822,9 @@ body.offcanvas {
     left: 0;
     width: 100px;
     height: 100px;
-    display: table;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background: #f2f3f7;
     -webkit-border-radius: 2px;
@@ -1437,6 +1439,14 @@ body.offcanvas {
 .slider-text-inner .desc {
   padding: 30px;
   background: rgba(255, 255, 255, .7);
+}
+.colorlib-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.colorlib-icon img {
+  width: 40px;
 }
 @media (max-width: 480px) {
   #colorlib-aside .position {
