@@ -9,6 +9,9 @@
 .w-48 {
     width: 48%;
 }
+.d-block {
+    display: block;
+}
 @media (max-width: 576px) {
     .w-mob-100 {
         width: 100% !important;
