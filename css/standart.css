@@ -1,0 +1,16 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex_jc-sb {
+    display: flex;
+    justify-content: space-between;
+}
+.w-48 {
+    width: 48%;
+}
+@media (max-width: 576px) {
+    .w-mob-100 {
+        width: 100% !important;
+    }
+}
